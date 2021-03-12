@@ -1,0 +1,31 @@
+RewriteEngine On
+RewriteRule ^accueil$ src/views/accueil.php
+RewriteRule ^login$ index.php
+
+RewriteRule ^addprod$ src/views/produit/addProd.php
+RewriteRule ^allProduit$ src/views/produit/allProduit.php
+RewriteRule ^supProduit$ src/views/produit/supProduit.php
+RewriteRule ^editproduit$ src/views/produit/UpdateProduit.php
+
+
+
+RewriteRule ^addUser$ src/views/user/addUser.php
+RewriteRule ^allUser$ src/views/user/allUser.php
+RewriteRule ^supUser$ src/views/user/supUser.php
+RewriteRule ^edituser$ src/views/user/UpdateUser.php
+
+RewriteRule ^prt/liste$ src/views/produit/allProduit.php
+RewriteRule ^prt/liste$ src/views/allUser.php
+
+
+RewriteRule ^UserController$ src/controller/userController.php
+RewriteRule ^userController$ src/controller/userController.php
+RewriteRule ^produitController$ src/controller/ProduitController.php
+
+
+
+
+
+
+
+
